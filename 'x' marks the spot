@@ -1,0 +1,8 @@
+const xMarksTheSpot = (input) => {  
+  if (input.length === 0 || input.filter(el => el != 'x' || el.match('x').length > 2)) {
+    return [];
+  } else if (input[0] === 'x') {
+    return [0, 0];
+  }
+  return input.indexOf('x',2), input.lastIndexOf('x', 2);
+}
