@@ -2,6 +2,7 @@ const xMarksTheSpot = (input) => {
   if (!input.length) {
     return [];
   } 
+
   const result = [];
   
   for(let i = 0; i < input.length; i += 1) {
