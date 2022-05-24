@@ -2,4 +2,4 @@ function arrayDiff(a, b) {
   return a.filter(sameNumber => !b.includes(sameNumber));
 }
 
-//source: https://www.codewars.com/kata/52597aa56021e91c93000cb0
+//source: https://www.codewars.com/kata/523f5d21c841566fde000009
